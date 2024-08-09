@@ -8,29 +8,75 @@
 </head>
 <body>
     <div class="header">
-        <div class="header-left">
+        <div class="header-top-left">
+            <img src="Icons/Header/magnify.svg" height="30px" width="30px">
             <input type="text" name="search" id="search">
         </div>
-        <div class="header-right">
-            <div class="user-info">
-                <p class="name">Morgan Oakley</p>
+        <div class="header-lower-left">
+            <div class="user-information">
+                <div class="user-image"></div>
+                <div class="user-greeting">
+                    <span class="greeting">Hi there,</span>
+                    <span class="user-name">Morgan Oakley (@morgan)</span>
+                </div>
             </div>
+        </div>
+        <div class="header-top-right">
+            <div class="user-info">
+                <img src="Icons/Header/bell.svg" height="25px" width="25px">
+                <div class="user-image"></div>
+                <span class="name">Morgan Oakley</span>
+            </div>
+        </div>
+        <div class="header-lower-right">
+            <button class="new">New</button>
+            <button class="upload">Upload</button>
+            <button class="share">Button</button>
         </div>
     </div>
     <div class="dashboard">
-        <p class="dash-title">Dashboard</p>
+        <div class="dashboard-start">
+            <img src="Icons/Dashboard/dashboard.svg" height="45px" width="45px"><span class="dash-title">Dashboard</span>
+        </div>
         <div class="dash-start">
-            <p class="dash-item">Home</p>
-            <p class="dash-item">Profile</p>
-            <p class="dash-item">Messages</p>
-            <p class="dash-item">History</p>
-            <p class="dash-item">Tasks</p>
-            <p class="dash-item">Communities</p>
+            <div class="home">
+                <img src="Icons/Dashboard/home.svg" height="30px" width="30px">
+                <span class="dash-item">Home</span>
+            </div>
+            <div class="profile">
+                <img src="Icons/Dashboard/profile.svg" height="30px" width="30px">
+                <span class="dash-item">Profile</span>
+            </div>
+            <div class="messages">
+                <img src="Icons/Dashboard/messages.svg" height="30px" width="30px">
+                <span class="dash-item">Messages</span>
+            </div>
+            <div class="history">
+                <img src="Icons/Dashboard/history.svg" height="30px" width="30px">
+                <span class="dash-item">History</span>
+            </div>
+            <div class="tasks">
+                <img src="Icons/Dashboard/tasks.svg" height="30px" width="30px">
+                <span class="dash-item">Tasks</span>
+            </div>
+            <div class="communities">
+                <img src="Icons/Dashboard/communities.svg" height="30px" width="30px">
+                <span class="dash-item">Communities</span>
+            </div>
         </div>
         <div class="dash-end">
-            <p class="dash-item">Settings</p>
-            <p class="dash-item">Support</p>
-            <p class="dash-item">Privacy</p>
+            <div class="settings">
+                <img src="Icons/Dashboard/settings.svg" height="30px" width="30px">
+                <span class="dash-item">Settings</span>
+            </div>
+            <div class="support">
+                <img src="Icons/Dashboard/support.svg" height="30px" width="30px">
+                <span class="dash-item">Support</span>
+            </div>
+            <div class="privacy">
+                <img src="Icons/Dashboard/privacy.svg" height="30px" width="30px">
+                <span class="dash-item">Privacy</span>
+            </div>
         </div>
     </div>
     <div class="main"></div>
